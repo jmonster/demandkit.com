@@ -26,9 +26,9 @@ app.import('vendor/js/fastclick.js');
 app.import('vendor/js/jquery.cookie.js');
 
 // stylesheets
-app.import('vendor/styles/style.css');
-app.import('vendor/styles/flaticon.css');
-app.import('vendor/styles/foundation.min.css');
 app.import('vendor/styles/normalize.css');
+app.import('vendor/styles/foundation.min.css');
+app.import('vendor/styles/flaticon.css');
+app.import('vendor/styles/style.css');
 
 module.exports = app.toTree();

@@ -1,10 +1,10 @@
 ﻿body {
     color: #7d7d7d;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #7d7d7d;
 }
@@ -97,7 +97,7 @@ button, .button {
     width: 100%;
     min-height: 400px;
     padding: 40px;
-    background: url('/assets/img/intro.jpg') no-repeat center center fixed;
+    background: url('/assets/img/intro.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
