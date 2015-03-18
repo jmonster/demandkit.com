@@ -17,4 +17,18 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+// javascripts
+app.import('vendor/js/modernizr.js');
+app.import('vendor/js/placeholder.js');
+app.import('vendor/js/foundation.min.js');
+app.import('vendor/js/foundation/foundation.orbit.js');
+app.import('vendor/js/fastclick.js');
+app.import('vendor/js/jquery.cookie.js');
+
+// stylesheets
+app.import('vendor/styles/style.css');
+app.import('vendor/styles/flaticon.css');
+app.import('vendor/styles/foundation.min.css');
+app.import('vendor/styles/normalize.css');
+
 module.exports = app.toTree();
