@@ -5,5 +5,17 @@
     "/tests": "tests/index.html",
     "/tests/**": "tests/index.html",
     "/**": "index.html"
+  },
+  "forms": {
+    "waitlist": {
+      "to":"johnny@yayuhh.com",
+      "from":"waitlist@yayuhh.com",
+      "replyTo": "{{name}} <{{email}}>",
+      "subject": "Contact Received from {{name}}",
+      "html": "<b>Name:</b> {{name}}<br/><b>Email:</b> {{email}}",
+      "text": "Name: {{name}}, Email: {{email}}",
+      "success": "/email-received",
+      "failure": "/email-failure"
+    }
   }
 }

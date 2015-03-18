@@ -8,9 +8,14 @@
             <div id="sign-up">
                 <h3 class='header-join-list-title'>Join the Waiting List</h3>
                 <hr />
-                <input id="name-input" type="text" placeholder="Hank Scorpio" />
-                <input id="email-input" type="text" placeholder="hank@globex.com" />
-                <button class="blue-btn">Submit</button>
+                {{#unless didSubmitWaitlist}}
+
+                    {{input value=waitlistName id="name-input" type="text" placeholder="Hank Scorpio" name="name"}}
+                    {{input value=waitlistEmail id="email-input" type="text" placeholder="hank@globex.com" name="email"}}
+                    <button {{action 'submitWaitlist'}} class="blue-btn">Submit</button>
+                {{else}}
+                    <h5 class='header-join-list-title'>request submitted :o)</h5>
+                {{/unless}}
             </div>
         </div>
     </div>
