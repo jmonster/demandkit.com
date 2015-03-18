@@ -1,4 +1,13 @@
-h1 {
-  color: #6cceec;
+#intro {
+  background: linear-gradient(450deg, #263269 0%, #22B1B7 100%) rgb(222, 222, 222);
+}
+h1.header-title,
+h4.header-subtitle {
+  color: white;
   font-weight: bold;
 }
+
+h3.header-join-list-title {
+  color: black;
+}
+
